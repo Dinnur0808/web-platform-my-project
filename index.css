@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #464545;
+  background-image: url('https://avatars.mds.yandex.net/i?id=91aec2dd009b7be944caba2bbbb79934bda06b41-10311550-images-thumbs&n=13.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(37, 154, 227);
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(97, 236, 54, 0.737);
+}
+
+label {
+  font-weight: bold;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='date'],
+input[type='tel'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(25, 8, 253);
+  border-radius: 3px;
+}
+
+button {
+  background-color: #129a63;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}

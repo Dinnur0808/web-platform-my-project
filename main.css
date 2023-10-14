@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  background: linear-gradient(90deg, #4a90e2, #ffcc29); 
+  background-size: 200% 100%; 
+  animation: moveBackground 10s linear infinite; 
+}
+@keyframes moveBackground {
+  0% {
+      background-position: 100% 0; 
+  }
+  100% {
+      background-position: -100% 0; 
+  }
+}
+
+
+
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+h2 {
+text-align: center;
+}
+h2 {
+  background-color: rgba(43, 41, 71, 0.251)
+}
+
+
+li {
+  text-align: center;
+}
+dt{
+  text-align: center;
+}
+
+dd{
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid #333;
+}
+
+ul, ol, dl {
+  margin-left: 20px;
+}
+a:hover {
+  color: #ff6600;
+}
+
+h1::after {
+  content: " - Главная страница";
+}
+table td + td {
+  border-left: none;
+}
+#email {
+  border: 2px solid #007bff;
+}
+
+.error-message {
+  color: #ff0000;
+}
+
+caption {
+  color: green;
+}
+
+th {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+td {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+li {
+  list-style: square;
+}
+dd {
+  font-style: italic;
+}
